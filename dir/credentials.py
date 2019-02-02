@@ -1,8 +1,0 @@
-consumer_key = 'lZ7cp7FW0B3ClsZKyc2yXXPjN'
-consumer_secret = 'H7dwJa4n4b09ZYLWPnISJIEppvIphbTIsawXOHvJoSUMcPG4JV'
-access_token = '1056739720942632960-xHPLsOrRiFr9u8s7jb3ZrkDVXEdWLA'
-access_token_secret = 'lxI5ReSTg1V00vR270o8EBQRhJgVBJHtEfdPJYYY0k8uh'
-
-genius_client_id = 'JFZZf4dLYXVIUolijYx19MEsmKoR6bZE2BsF6jzg4SAo8wBFLIY0mOzxO8xJipGB'
-genius_client_secret = 'K7Wk6AmnBXbIUhwA_SzNOyErKrZCK97NUbMY0K5PQJcjkWDmg'
-genius_client_token = 'PvoBQiqRjPZGtS2W7fSh9UAQhV9-SlLC9T2iElzXo6_PFeoSju3khpbpW-6Hws8i'
