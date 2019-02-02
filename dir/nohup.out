@@ -1,0 +1,44 @@
+I know I deserve more, I just never said it. Two middle fingers as I make an exit.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+Love is just not in my plans. Not even takin' a chance.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+My heart is way too frozen to get broken.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+I know what we're both thinkin' even when you're quiet.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+Now you're talking down on my name, on purpose. And you don't feel no way, you think I deserve it.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+Redemption's on your mind when you think about me.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+Life is amazing it is what it should be.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+I got everything I'm asking for but you.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+Been here for ten but I feel like a rookie.
+
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+Did all the favors, they never repaid me... it worked in my favor, 'cause nobody saved me.
+[{'code': 187, 'message': 'Status is a duplicate.'}]
+C:\Users\mdema\Documents\GitHub\captionsbydrake\Captions-by-Drake\dir\drakebot.js:9
+});
+ ^
+
+SyntaxError: missing ) after argument list
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:657:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:283:19)
