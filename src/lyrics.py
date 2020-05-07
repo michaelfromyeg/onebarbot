@@ -27,7 +27,4 @@ def clean_text():
 				newfile.write(line)
 				completed_lines_hash.add(hashValue)
 		newfile.close()
-
-
-	
 clean_text()
