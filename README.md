@@ -1,8 +1,8 @@
-# Captions by Drake
-This is a very basic Twitter bot that posts Drake lyrics intended to be used as Instagram captions. The application uses [LyricsGenius](https://github.com/johnwmillr/LyricsGenius), a Python client for the Genius API to gather lyrics, runs lyrics through a script to "clean them," and tweets a lyric to anyone who tweets "@" the bot.
+# onebarbot
+This is a  Twitter bot that posts lyrics intended to be used as Instagram captions. The application uses [LyricsGenius](https://github.com/johnwmillr/LyricsGenius), a Python client for the Genius API to gather lyrics and the replies to the user with a line. User's may query by artist, album, or song.
 
 ## Usage 
-A user tweets "@captionsbydrake" and receives a caption back. See it in action [here](https://twitter.com/captionsbydrake).
+A user tweets "@onebarbot" and receives a caption back. See it in action [here](https://twitter.com/captionsbydrake).
 
 ## Installation
 I'll leave these instructions here in case you want to reconfigure the bot to work for your favourite artist. Perhaps maybe I'll extend it so that a user is able to request their favourite artist.
@@ -21,13 +21,24 @@ I'll leave these instructions here in case you want to reconfigure the bot to wo
 4. Create a file in `src/` called `credentials.py`
 5. Go to keys and tokens and copy-paste the values into `credentials.py`; you'll have to generate the access token and access token secret
 
-`consumer_key="abcdefgh"`
+`# Twitter`
 
-`consumer_secret="abcdefgh"`
+`twitter_consumer_key = ""`
 
-`access_token="abcdefgh"`
+`twitter_consumer_secret = ""`
 
-`access_token_secret="abcdefgh"`
+`twitter_access_token = ""`
+
+`twitter_access_token_secret = ""`
+
+`# Genius`
+
+`genius_client_id = ""`
+
+`genius_client_secret = ""`
+
+`genius_client_access_token = ""`
+
 
 ## Deployment
 

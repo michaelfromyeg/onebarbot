@@ -1,30 +1,28 @@
-from time import sleep
-from credentials import * # API shtuffs
-import lyricsgenius as genius
-import hashlib
+# This file doubles as both a command-line interface for getting lyrics and a way of gathering lyrics for the Twitter bot
+import sys
+import random
 
-# Variables
-num_songs = 5
-completed_lines_hash = set()
+import lyricsgenius
+import click
 
-# APIs
-api2 = genius.Genius(genius_client_token)
-drake = api2.search_artist('Drake', sort='popularity', max_songs=num_songs)
+from credentials import *
 
-for i in range(num_songs):
-	print(drake.songs[i])
+def setup():
+	# Configure lyrics genius
+	genius = lyricsgenius.Genius(genius_client_access_token)
 
-drake.save_lyrics(format_='txt')
 
-# Clean text file
-def clean_text():
-	print('File cleaned and saved to CleanLyrics_Drake.txt.')
-	removes = ['[']
-	with open('Lyrics_Drake.txt') as oldfile, open('CleanLyrics_Drake.txt', 'w') as newfile:
-		for line in oldfile:
-			hashValue = hashlib.md5(line.rstrip().encode('utf-8')).hexdigest()
-			if (not any(remove in line for remove in removes)) and (len(line) >= 20) and (hashValue not in completed_lines_hash):
-				newfile.write(line)
-				completed_lines_hash.add(hashValue)
-		newfile.close()
-clean_text()
+def main():
+	print("This function needs to be implemneted")
+
+@click.command()
+@click.option("--count", default=1, help="Number of greetings.")
+@click.option("--name", prompt="Your name", help="The person to greet.")
+def hello(count, name):
+    """Simple program that greets NAME for a total of COUNT times."""
+    for _ in range(count):
+        click.echo(f"Hello, {name}!")
+
+if __name__ == '__main__':
+	setup()
+  hello()
